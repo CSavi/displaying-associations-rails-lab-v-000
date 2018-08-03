@@ -1,6 +1,6 @@
 class SongsController < ApplicationController
   def index
-    @song = Song.new 
+    @songs = Song.all
   end
 
   def show
